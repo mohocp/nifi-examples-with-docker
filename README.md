@@ -67,4 +67,4 @@ The following processes used to achive the JOB <br>
 * **LogAttribute** two processed was added; the first one used to handle the unhappy and unwanted relationships i.e. (failure, origin, unmatched) and the other one used to debug on the last setep
 
 The screenshot below describe the entire workflow <br>
-![Move data from Postgres to MongoDB NIFI Workflow](https://o.remove.bg/downloads/7996dce0-cfc3-4d1d-879d-93d90c1e4bb5/Screen_Shot_2021-05-15_at_3.36.15_AM-removebg-preview.png)
+![Move data from Postgres to MongoDB NIFI Workflow](https://i.ibb.co/3CtYtWF/Screen-Shot-2021-05-15-at-7-37-49-PM.png)
