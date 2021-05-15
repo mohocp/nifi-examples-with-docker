@@ -1,0 +1,9 @@
+/conf/*
+/content_repository/*
+/flowfile_repository/*
+/mongo-data/*
+/pg-data/*
+/state/*
+/provenance_repository/*
+/logs/*
+/database_repository/*

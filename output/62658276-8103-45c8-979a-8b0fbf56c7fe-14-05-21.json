@@ -1,0 +1,71 @@
+[{
+    "name": "Nancy Brown",
+    "age": 52,
+    "street": "0767 Pennington Station",
+    "city": "North Stephanie",
+    "state": "Indiana",
+    "zip": 2995,
+    "lng": 21.886057,
+    "lat": 88.61196
+
+},{
+    "name": "Joel Turner",
+    "age": 66,
+    "street": "13467 Fleming Lock Apt. 948",
+    "city": "Lake Zachary",
+    "state": "Minnesota",
+    "zip": 7040,
+    "lng": 41.13531,
+    "lat": 19.616974
+
+},{
+    "name": "Ana Rhodes",
+    "age": 76,
+    "street": "947 Adam Common",
+    "city": "Port Christophermouth",
+    "state": "Alaska",
+    "zip": 24359,
+    "lng": 174.58452,
+    "lat": -72.3299685
+
+},{
+    "name": "Logan Peterson",
+    "age": 61,
+    "street": "232 Thompson Club",
+    "city": "Latoyabury",
+    "state": "Indiana",
+    "zip": 36125,
+    "lng": 23.198444,
+    "lat": -85.893563
+
+},{
+    "name": "Wanda Adams",
+    "age": 52,
+    "street": "72189 Harris Plaza",
+    "city": "Port Joshuamouth",
+    "state": "New York",
+    "zip": 54408,
+    "lng": 175.91417,
+    "lat": -82.764262
+
+},{
+    "name": "Ross Hoffman",
+    "age": 68,
+    "street": "3121 Morgan Mountain Suite 458",
+    "city": "Andrewston",
+    "state": "Alaska",
+    "zip": 72619,
+    "lng": 78.09865,
+    "lat": 81.5213
+
+},{
+    "name": "Gabrielle Fisher",
+    "age": 67,
+    "street": "5228 Frazier Estates Suite 356",
+    "city": "Schmidtburgh",
+    "state": "Massachusetts",
+    "zip": 69532,
+    "lng": -156.578417,
+    "lat": -43.291376
+
+}]
