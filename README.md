@@ -38,7 +38,7 @@ The screenshots below
 ## Information
 The description for each process in both workflows as the following
 ### Convert CSV to JSON
-The following processes used to achive the JOB <br>
+The following processes used to achieve the JOB <br>
 * **GetFile Process** used to get file from the data directory
 * **SplitRecord** used to spearte each record to spearted FileFlow
   - **CSVReader** service used for parsing the incoming data.  
@@ -49,22 +49,22 @@ The following processes used to achive the JOB <br>
 * **MergeContent** used to merge all FileFlows items in one FileFlow 
 * **UpdateAttribute** used to update the file with uuid + date of today + json
 * **PutFile** used to load the final JSON file in output directory
-* **LogAttribute** two processes was added; the first one used to handle the unhappy and unwanted relationships i.e. (failure, origin, unmatched) and the other one used to debug on the last setep
+* **LogAttribute** two processes was added; the first one used to handle the unhappy and unwanted relationships i.e. (failure, origin, unmatched) and the other one used to debug on the last setp
 
 The screenshot below describe the entire workflow <br>
 ![Convert CSV to JSON NIFI Workflow](https://i.ibb.co/9HbvJQj/Screen-Shot-2021-05-15-at-3-36-15-AM.png)
 
 ### Move data from Postgres to MongoDB
-The following processes used to achive the JOB <br>
+The following processes used to achieve the JOB <br>
 * **ExecuteSQLRecord** used to to fetch the data from the data Postgres
-* **SplitRecord** used to spearte each record to spearted FileFlow
+* **SplitRecord** used to separate each record to spearted FileFlow
   - **CSVReader** service used for parsing the incoming data.  
   - **CSVRecordSetWrite** service used for writing the result to FileFlow
 *  **QueryRecord** allow to filter the set of FileFlows based on age > 40 condition 
 * **ExtractText** used to store the content of the fields in Attributes
 * **ReplaceText** used to replace the content of FileFlow with JSON using nifi expression language to get the value of attributes
 * **PutMongo** used to load the JSON records to MongoDB
-* **LogAttribute** two processed was added; the first one used to handle the unhappy and unwanted relationships i.e. (failure, origin, unmatched) and the other one used to debug on the last setep
+* **LogAttribute** two processed was added; the first one used to handle the unhappy and unwanted relationships i.e. (failure, origin, unmatched) and the other one used to debug on the last step
 
 The screenshot below describe the entire workflow <br>
 ![Move data from Postgres to MongoDB NIFI Workflow](https://i.ibb.co/3CtYtWF/Screen-Shot-2021-05-15-at-7-37-49-PM.png)
